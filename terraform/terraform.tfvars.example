@@ -1,0 +1,18 @@
+# Terraform variables configuration
+# Copy this file to terraform.tfvars and modify values as needed
+
+# Namespace configuration
+postgresql_namespace = "sonarqube"
+sonarqube_namespace  = "sonarqube"
+
+# PostgreSQL configuration
+postgresql_username  = "sonarqube"
+postgresql_password  = "sonarqube_secure_password"
+postgresql_database  = "sonarqube"
+
+# SonarQube configuration
+sonarqube_ingress_host   = "sonarqube.local"
+sonarqube_monitoring_passcode = "admin123"
+
+# Storage configuration
+persistence_size = "5Gi"
