@@ -18,7 +18,7 @@ The setup script handles installation of all prerequisites on a clean Ubuntu Ser
 
 1. **Clone or extract this repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/HenriksApsitis/SonarQubeKubernetesDeployment.git
    cd sonarqube-minikube
    ```
 
